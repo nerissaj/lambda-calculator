@@ -1,8 +1,8 @@
 import React from "react";
 
 
-import{Num
-import { numbers } from '../path/to/data';
+import {Display} from './Display.js';
+import { numbers } from './data.js';
 import "./App.css";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
