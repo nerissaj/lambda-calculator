@@ -1,9 +1,9 @@
 import React from "react";
-
+import Operator from '../Operators.js';
 //import any components needed
-
+import (Special)
 //Import your array data to from the provided data file
-
+import { numbers } from '../path/to/data';
 const Numbers = () => {
   // STEP 2 - add the imported data to state
   return (
@@ -14,3 +14,6 @@ const Numbers = () => {
     </div>
   );
 };
+
+
+export default Numbers;

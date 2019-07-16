@@ -2,8 +2,10 @@ import React from "react";
 
 //import any components needed
 
-//Import your array data to from the provided data file
+//Import your array data to from the provided data filperators} from '../data.js';
 
+
+import { operators } from '../path/to/data';
 const Operators = () => {
   // STEP 2 - add the imported data to state
   return (
@@ -14,3 +16,6 @@ const Operators = () => {
     </div>
   );
 };
+
+
+export default Operators;
